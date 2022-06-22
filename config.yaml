@@ -13,8 +13,8 @@ menu:
       url: /current_projects
     - name: Services
       url: /services
-    - name: Testimonials
-      url: /testimonials
+    # - name: Testimonials
+    #   url: /testimonials
 copyright: Jake Jordan Remodeling
 markup:
   defaultMarkdownHandler: "goldmark"
