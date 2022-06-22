@@ -1,0 +1,23 @@
+baseURL: 'https://www.jakejordanremodeling.com'
+languageCode: en-us
+title: Jake Jordan Remodeling
+params:
+  masthead: images/windsboro_masthead.jpg
+menu:
+  main:
+    - name: Blog
+      url: /blog
+    - name: Contact
+      url: /contact
+    - name: Current Projects
+      url: /current_projects
+    - name: Services
+      url: /services
+    - name: Testimonials
+      url: /testimonials
+copyright: Jake Jordan Remodeling
+markup:
+  defaultMarkdownHandler: "goldmark"
+  goldmark:
+    renderer:
+      unsafe: true
