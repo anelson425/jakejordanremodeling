@@ -4,17 +4,17 @@
 <div
 class="bg-image"
 style="
-    background-color: #EAE7DC;
+    background-image: url( {{ $masthead.RelPermalink}} );
+    background-color: #1E323E;
     background-repeat: no-repeat; 
-    background-size: cover; 
     background-position: center center;
     height: 20vh;
 ">
 </div>
 
-<nav id="navbar_top" class="navbar navbar-expand-lg navbar-light navbar-custom">
+<nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark navbar-custom">
     <div class="container">
-        <a class="navbar-brand" href= {{ .Site.BaseURL }}> {{ .Site.Title }}</a>
+        <a class="navbar-brand" href= {{ .Site.BaseURL }}> Home </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
             <span class="navbar-toggler-icon"></span>
         </button>

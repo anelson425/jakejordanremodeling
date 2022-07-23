@@ -2,7 +2,7 @@ baseURL: 'https://www.jakejordanremodeling.com'
 languageCode: en-us
 title: Jake Jordan Remodeling
 params:
-  masthead: images/windsboro_masthead.jpg
+  masthead: images/masthead.png
 menu:
   main:
     - name: Blog
