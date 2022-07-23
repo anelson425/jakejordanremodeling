@@ -3,9 +3,9 @@
   }
 
 .navbar-custom {
-    background-color: #DBC3A5;
+    background-color: #1E323E;
 }
-  
+
 div.gallery {
     border: 1px solid #ccc;
 }
@@ -21,7 +21,7 @@ div.gallery img {
 
 div.desc {
     padding: 15px;
-text-align: center;
+    text-align: center;
 }
 
 * {
